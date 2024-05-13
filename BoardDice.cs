@@ -2,5 +2,5 @@
 Console.WriteLine("\t-= Welcome to Dice's =-\t");
 Console.WriteLine("> Please, press 'Enter' to continue... \t");
 Console.ReadLine();
-int dice = new Random().Next(200);
+int dice = new Random().Next(1, 7);
 Console.WriteLine($"Dice's face: {dice}");
